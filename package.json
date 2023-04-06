@@ -1,0 +1,15 @@
+{
+  "private":"true",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "eslint": "^8.37.0",
+    "typescript": "^5.0.3"
+  }
+}
