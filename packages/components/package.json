@@ -2,12 +2,12 @@
   "name": "@wjj/components",
   "private": true,
   "version": "0.0.0",
-  "main":"./dist/components.js",
-  "module":"./dist/components.mjs",
-  "types":"./dist/types/main.d.ts",
+  "main": "./dist/components.js",
+  "module": "./dist/components.mjs",
+  "types": "./dist/types/main.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && vue-tsc -w",
+    "build": "vite build -w",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
+    "vite-plugin-dts": "^2.2.0",
     "vue-tsc": "^1.0.24"
   }
 }

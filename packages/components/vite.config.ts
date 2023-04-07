@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import dts from 'vite-plugin-dts'
 
 export default defineConfig(
   {
@@ -14,6 +15,10 @@ export default defineConfig(
     },
     plugins: [
       vue(),
+      dts({
+        tsConfigFilePath: './tsconfig.json',
+        outputDir: './dist/types',
+      }),
     ],
   },
 )
