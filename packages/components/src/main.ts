@@ -1,5 +1,7 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import HelloWorld from './components/HelloWorld.vue'
+import Test from './components/Test.vue'
 
-createApp(App).mount('#app')
+export {
+  HelloWorld,
+  Test,
+}

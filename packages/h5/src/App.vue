@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import { get } from '@wjj/api'
-import HelloWorld from './components/HelloWorld.vue'
+import { Test } from '@wjj/components'
 
 onMounted(async () => {
   const res = await get()
@@ -18,7 +18,7 @@ onMounted(async () => {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo">
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <Test />
 </template>
 
 <style scoped>
