@@ -1,13 +1,13 @@
 {
   "name": "@wjj/components",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "main": "./dist/components.js",
   "module": "./dist/components.mjs",
   "types": "./dist/types/main.d.ts",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build -w",
+    "dev": "vite build -w",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -1,14 +1,16 @@
 {
-  "private":"true",
-  "version": "1.0.0",
+  "private": "true",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
+    "bumpp": "npx bumpp package.json packages/*/package.json --commit --tag --push"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
+    "@jsdevtools/version-bump-prompt": "^6.1.0",
     "eslint": "^8.37.0",
     "typescript": "^5.0.3"
   }

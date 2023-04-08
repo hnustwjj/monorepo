@@ -1,7 +1,7 @@
 {
   "name": "@wjj/api",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.1",
   "type": "module",
   "main": "./src/main.ts",
   "types": "./dist/types/main.d.ts",
