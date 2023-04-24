@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "vite build -w",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo components"
   },
   "dependencies": {
     "vue": "^3.2.45"

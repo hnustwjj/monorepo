@@ -6,9 +6,8 @@
   "main": "./src/main.ts",
   "types": "./dist/types/main.d.ts",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build && tsc tsc",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "echo api"
   },
   "devDependencies": {
     "typescript": "^4.6.4",

@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./src/main.ts",
   "scripts": {
-    "dev": "npx esno src/main.ts",
+    "dev": "npx esno watch src/main.ts",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
