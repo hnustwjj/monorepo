@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "bumpp": "npx bumpp package.json packages/*/package.json --commit --tag --push",
-    "dev": "pnpm --parallel --filter ...@wjj/h5 run dev"
+    "dev": "pnpm --parallel --filter @wjj/h5... run dev"
   },
   "keywords": [],
   "author": "",
