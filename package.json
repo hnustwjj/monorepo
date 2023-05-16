@@ -14,5 +14,8 @@
     "@jsdevtools/version-bump-prompt": "^6.1.0",
     "eslint": "^8.38.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0"
   }
 }
