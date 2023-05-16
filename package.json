@@ -11,8 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.4",
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
     "@jsdevtools/version-bump-prompt": "^6.1.0",
     "eslint": "^8.38.0",
+    "simple-git-hooks": "^2.8.1",
     "typescript": "^5.0.4"
   },
   "dependencies": {
@@ -22,5 +25,8 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx commitlint -e $GIT_PARAMS"
   }
 }
